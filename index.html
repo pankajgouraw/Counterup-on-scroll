@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Increase the number when scroll</title>
+	<style type="text/css">
+		body{text-align:center;}
+    p{font-weight: bold; font-size: 30px; margin-top}
+    p:nth-child(2){font-weight: bold; font-size: 18px;}
+	</style>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+<h2>Increase the number when scroll</h2>
+<section style="background: #9edf91; height: 700px">
+	
+</section>
+<section style="background: gray; height: 200px">
+	
+</section>
+
+<section style="background: #ddd; padding:50px 0px;">
+	      <div class="container">
+                    <div class="row">
+                          <div class="col-md-3 text-center">
+                            <p><i class="fa fa-smile-o" aria-hidden="true"></i> <span class="counterOn">5000</span><i class="fa fa-plus" aria-hidden="true"></i></p>
+                           <p>Satisfied Customers</p>
+                        </div>
+                           <div class="col-md-3 text-center">
+                              <p><i class="fa fa-globe" aria-hidden="true"></i> <span class="counterOn">30</span><i class="fa fa-plus" aria-hidden="true"></i></p>
+                           <p>Cities We Operate</p>
+                        </div>
+                        <div class="col-md-3 text-center">
+                           <p><i class="fa fa-clock-o" aria-hidden="true"></i> <span class="counterOn">20</span><i class="fa fa-plus" aria-hidden="true"></i></p>
+                           <p>Working Days in a Month</p>
+                        </div>
+                        <div class="col-md-3 text-center">
+                             <p><i class="fa fa-male" aria-hidden="true"></i><span class="counterOn">1000</span><i class="fa fa-plus" aria-hidden="true"></i></p>
+                           <p>Active Customer</p>
+                        </div>
+                    </div>
+                </div>
+</section>
+<section style="background: gray; height: 200px">
+	
+</section>
+<section style="background: #9edf91; height: 700px">
+	
+</section>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="counter.js"></script>
+<script type="text/javascript">
+	$('.counterOn').countUp({
+    'time': 2000,
+    'delay': 10
+  });
+</script>
+</body>
+</html>
